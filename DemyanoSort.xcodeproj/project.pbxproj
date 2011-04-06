@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593EB3DE134C172C00F60E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593EB3DD134C172C00F60E66 /* Cocoa.framework */; };
+		593EB3E8134C172C00F60E66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 593EB3E6134C172C00F60E66 /* InfoPlist.strings */; };
+		593EB3EB134C172C00F60E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EB3EA134C172C00F60E66 /* main.m */; };
+		593EB3EE134C172C00F60E66 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 593EB3EC134C172C00F60E66 /* Credits.rtf */; };
+		593EB3F1134C172C00F60E66 /* DemyanoSortAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EB3F0134C172C00F60E66 /* DemyanoSortAppDelegate.m */; };
+		593EB3F4134C172C00F60E66 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 593EB3F2134C172C00F60E66 /* MainMenu.xib */; };
+		593EB3FB134C172C00F60E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593EB3DD134C172C00F60E66 /* Cocoa.framework */; };
+		593EB403134C172C00F60E66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 593EB401134C172C00F60E66 /* InfoPlist.strings */; };
+		593EB406134C172C00F60E66 /* DemyanoSortTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 593EB405134C172C00F60E66 /* DemyanoSortTests.h */; };
+		593EB408134C172C00F60E66 /* DemyanoSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EB407134C172C00F60E66 /* DemyanoSortTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		593EB3FC134C172C00F60E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593EB3D0134C172C00F60E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593EB3D8134C172C00F60E66;
+			remoteInfo = DemyanoSort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		593EB3D9134C172C00F60E66 /* DemyanoSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemyanoSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		593EB3DD134C172C00F60E66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		593EB3E0134C172C00F60E66 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		593EB3E1134C172C00F60E66 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		593EB3E2134C172C00F60E66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		593EB3E5134C172C00F60E66 /* DemyanoSort-Info.plist */ = {isa = PBXFileReference; path = "DemyanoSort-Info.plist"; sourceTree = "<group>"; };
+		593EB3E7134C172C00F60E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		593EB3E9134C172C00F60E66 /* DemyanoSort-Prefix.pch */ = {isa = PBXFileReference; path = "DemyanoSort-Prefix.pch"; sourceTree = "<group>"; };
+		593EB3EA134C172C00F60E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		593EB3ED134C172C00F60E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		593EB3EF134C172C00F60E66 /* DemyanoSortAppDelegate.h */ = {isa = PBXFileReference; path = DemyanoSortAppDelegate.h; sourceTree = "<group>"; };
+		593EB3F0134C172C00F60E66 /* DemyanoSortAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemyanoSortAppDelegate.m; sourceTree = "<group>"; };
+		593EB3F3134C172C00F60E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		593EB3FA134C172C00F60E66 /* DemyanoSortTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemyanoSortTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593EB400134C172C00F60E66 /* DemyanoSortTests-Info.plist */ = {isa = PBXFileReference; path = "DemyanoSortTests-Info.plist"; sourceTree = "<group>"; };
+		593EB402134C172C00F60E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		593EB404134C172C00F60E66 /* DemyanoSortTests-Prefix.pch */ = {isa = PBXFileReference; path = "DemyanoSortTests-Prefix.pch"; sourceTree = "<group>"; };
+		593EB405134C172C00F60E66 /* DemyanoSortTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemyanoSortTests.h; sourceTree = "<group>"; };
+		593EB407134C172C00F60E66 /* DemyanoSortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemyanoSortTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		593EB3D6134C172C00F60E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593EB3DE134C172C00F60E66 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593EB3F6134C172C00F60E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593EB3FB134C172C00F60E66 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		593EB3CE134C172C00F60E66 = {
+			isa = PBXGroup;
+			children = (
+				593EB3E3134C172C00F60E66 /* DemyanoSort */,
+				593EB3FE134C172C00F60E66 /* DemyanoSortTests */,
+				593EB3DC134C172C00F60E66 /* Frameworks */,
+				593EB3DA134C172C00F60E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		593EB3DA134C172C00F60E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				593EB3D9134C172C00F60E66 /* DemyanoSort.app */,
+				593EB3FA134C172C00F60E66 /* DemyanoSortTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		593EB3DC134C172C00F60E66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593EB3DD134C172C00F60E66 /* Cocoa.framework */,
+				593EB3DF134C172C00F60E66 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		593EB3DF134C172C00F60E66 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593EB3E0134C172C00F60E66 /* AppKit.framework */,
+				593EB3E1134C172C00F60E66 /* CoreData.framework */,
+				593EB3E2134C172C00F60E66 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		593EB3E3134C172C00F60E66 /* DemyanoSort */ = {
+			isa = PBXGroup;
+			children = (
+				593EB3EF134C172C00F60E66 /* DemyanoSortAppDelegate.h */,
+				593EB3F0134C172C00F60E66 /* DemyanoSortAppDelegate.m */,
+				593EB3F2134C172C00F60E66 /* MainMenu.xib */,
+				593EB3E4134C172C00F60E66 /* Supporting Files */,
+			);
+			path = DemyanoSort;
+			sourceTree = "<group>";
+		};
+		593EB3E4134C172C00F60E66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				593EB3E5134C172C00F60E66 /* DemyanoSort-Info.plist */,
+				593EB3E6134C172C00F60E66 /* InfoPlist.strings */,
+				593EB3E9134C172C00F60E66 /* DemyanoSort-Prefix.pch */,
+				593EB3EA134C172C00F60E66 /* main.m */,
+				593EB3EC134C172C00F60E66 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		593EB3FE134C172C00F60E66 /* DemyanoSortTests */ = {
+			isa = PBXGroup;
+			children = (
+				593EB405134C172C00F60E66 /* DemyanoSortTests.h */,
+				593EB407134C172C00F60E66 /* DemyanoSortTests.m */,
+				593EB3FF134C172C00F60E66 /* Supporting Files */,
+			);
+			path = DemyanoSortTests;
+			sourceTree = "<group>";
+		};
+		593EB3FF134C172C00F60E66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				593EB400134C172C00F60E66 /* DemyanoSortTests-Info.plist */,
+				593EB401134C172C00F60E66 /* InfoPlist.strings */,
+				593EB404134C172C00F60E66 /* DemyanoSortTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		593EB3D8134C172C00F60E66 /* DemyanoSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593EB40B134C172C00F60E66 /* Build configuration list for PBXNativeTarget "DemyanoSort" */;
+			buildPhases = (
+				593EB3D5134C172C00F60E66 /* Sources */,
+				593EB3D6134C172C00F60E66 /* Frameworks */,
+				593EB3D7134C172C00F60E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemyanoSort;
+			productName = DemyanoSort;
+			productReference = 593EB3D9134C172C00F60E66 /* DemyanoSort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		593EB3F9134C172C00F60E66 /* DemyanoSortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593EB40E134C172C00F60E66 /* Build configuration list for PBXNativeTarget "DemyanoSortTests" */;
+			buildPhases = (
+				593EB3F5134C172C00F60E66 /* Sources */,
+				593EB3F6134C172C00F60E66 /* Frameworks */,
+				593EB3F7134C172C00F60E66 /* Resources */,
+				593EB3F8134C172C00F60E66 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593EB3FD134C172C00F60E66 /* PBXTargetDependency */,
+			);
+			name = DemyanoSortTests;
+			productName = DemyanoSortTests;
+			productReference = 593EB3FA134C172C00F60E66 /* DemyanoSortTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		593EB3D0134C172C00F60E66 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 593EB3D3134C172C00F60E66 /* Build configuration list for PBXProject "DemyanoSort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 593EB3CE134C172C00F60E66;
+			productRefGroup = 593EB3DA134C172C00F60E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				593EB3D8134C172C00F60E66 /* DemyanoSort */,
+				593EB3F9134C172C00F60E66 /* DemyanoSortTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		593EB3D7134C172C00F60E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593EB3E8134C172C00F60E66 /* InfoPlist.strings in Resources */,
+				593EB3EE134C172C00F60E66 /* Credits.rtf in Resources */,
+				593EB3F4134C172C00F60E66 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593EB3F7134C172C00F60E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593EB403134C172C00F60E66 /* InfoPlist.strings in Resources */,
+				593EB406134C172C00F60E66 /* DemyanoSortTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		593EB3F8134C172C00F60E66 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		593EB3D5134C172C00F60E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593EB3EB134C172C00F60E66 /* main.m in Sources */,
+				593EB3F1134C172C00F60E66 /* DemyanoSortAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593EB3F5134C172C00F60E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593EB408134C172C00F60E66 /* DemyanoSortTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		593EB3FD134C172C00F60E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593EB3D8134C172C00F60E66 /* DemyanoSort */;
+			targetProxy = 593EB3FC134C172C00F60E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		593EB3E6134C172C00F60E66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593EB3E7134C172C00F60E66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		593EB3EC134C172C00F60E66 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593EB3ED134C172C00F60E66 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		593EB3F2134C172C00F60E66 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593EB3F3134C172C00F60E66 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		593EB401134C172C00F60E66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593EB402134C172C00F60E66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		593EB409134C172C00F60E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		593EB40A134C172C00F60E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		593EB40C134C172C00F60E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemyanoSort/DemyanoSort-Prefix.pch";
+				INFOPLIST_FILE = "DemyanoSort/DemyanoSort-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		593EB40D134C172C00F60E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemyanoSort/DemyanoSort-Prefix.pch";
+				INFOPLIST_FILE = "DemyanoSort/DemyanoSort-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		593EB40F134C172C00F60E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemyanoSort.app/Contents/MacOS/DemyanoSort";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemyanoSortTests/DemyanoSortTests-Prefix.pch";
+				INFOPLIST_FILE = "DemyanoSortTests/DemyanoSortTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		593EB410134C172C00F60E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemyanoSort.app/Contents/MacOS/DemyanoSort";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemyanoSortTests/DemyanoSortTests-Prefix.pch";
+				INFOPLIST_FILE = "DemyanoSortTests/DemyanoSortTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		593EB3D3134C172C00F60E66 /* Build configuration list for PBXProject "DemyanoSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593EB409134C172C00F60E66 /* Debug */,
+				593EB40A134C172C00F60E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593EB40B134C172C00F60E66 /* Build configuration list for PBXNativeTarget "DemyanoSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593EB40C134C172C00F60E66 /* Debug */,
+				593EB40D134C172C00F60E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		593EB40E134C172C00F60E66 /* Build configuration list for PBXNativeTarget "DemyanoSortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593EB40F134C172C00F60E66 /* Debug */,
+				593EB410134C172C00F60E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 593EB3D0134C172C00F60E66 /* Project object */;
+}
