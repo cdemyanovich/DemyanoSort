@@ -19,6 +19,7 @@
 		593EB406134C172C00F60E66 /* SorterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 593EB405134C172C00F60E66 /* SorterTests.h */; };
 		593EB408134C172C00F60E66 /* SorterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EB407134C172C00F60E66 /* SorterTests.m */; };
 		593EB413134C189000F60E66 /* Sorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EB412134C189000F60E66 /* Sorter.m */; };
+		59D6B1DE1354D75C00156A16 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 59D6B1DD1354D75C00156A16 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		593EB407134C172C00F60E66 /* SorterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SorterTests.m; sourceTree = "<group>"; };
 		593EB411134C189000F60E66 /* Sorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sorter.h; sourceTree = "<group>"; };
 		593EB412134C189000F60E66 /* Sorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sorter.m; sourceTree = "<group>"; };
+		59D6B1DD1354D75C00156A16 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		593EB3CE134C172C00F60E66 = {
 			isa = PBXGroup;
 			children = (
+				59D6B1DD1354D75C00156A16 /* README */,
 				593EB3E3134C172C00F60E66 /* DemyanoSort */,
 				593EB3FE134C172C00F60E66 /* DemyanoSortTests */,
 				593EB3DC134C172C00F60E66 /* Frameworks */,
@@ -232,6 +235,7 @@
 				593EB3E8134C172C00F60E66 /* InfoPlist.strings in Resources */,
 				593EB3EE134C172C00F60E66 /* Credits.rtf in Resources */,
 				593EB3F4134C172C00F60E66 /* MainMenu.xib in Resources */,
+				59D6B1DE1354D75C00156A16 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
