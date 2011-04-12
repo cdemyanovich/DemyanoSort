@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5901B994134F65F000B32C8F /* NSMutableArray_Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5901B993134F65F000B32C8F /* NSMutableArray_Shuffling.m */; };
 		593EB3DE134C172C00F60E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593EB3DD134C172C00F60E66 /* Cocoa.framework */; };
 		593EB3E8134C172C00F60E66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 593EB3E6134C172C00F60E66 /* InfoPlist.strings */; };
 		593EB3EB134C172C00F60E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EB3EA134C172C00F60E66 /* main.m */; };
@@ -15,8 +16,9 @@
 		593EB3F4134C172C00F60E66 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 593EB3F2134C172C00F60E66 /* MainMenu.xib */; };
 		593EB3FB134C172C00F60E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593EB3DD134C172C00F60E66 /* Cocoa.framework */; };
 		593EB403134C172C00F60E66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 593EB401134C172C00F60E66 /* InfoPlist.strings */; };
-		593EB406134C172C00F60E66 /* DemyanoSortTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 593EB405134C172C00F60E66 /* DemyanoSortTests.h */; };
-		593EB408134C172C00F60E66 /* DemyanoSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EB407134C172C00F60E66 /* DemyanoSortTests.m */; };
+		593EB406134C172C00F60E66 /* SorterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 593EB405134C172C00F60E66 /* SorterTests.h */; };
+		593EB408134C172C00F60E66 /* SorterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EB407134C172C00F60E66 /* SorterTests.m */; };
+		593EB413134C189000F60E66 /* Sorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EB412134C189000F60E66 /* Sorter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,25 +32,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5901B992134F65F000B32C8F /* NSMutableArray_Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableArray_Shuffling.h; sourceTree = "<group>"; };
+		5901B993134F65F000B32C8F /* NSMutableArray_Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArray_Shuffling.m; sourceTree = "<group>"; };
 		593EB3D9134C172C00F60E66 /* DemyanoSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemyanoSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		593EB3DD134C172C00F60E66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		593EB3E0134C172C00F60E66 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		593EB3E1134C172C00F60E66 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		593EB3E2134C172C00F60E66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		593EB3E5134C172C00F60E66 /* DemyanoSort-Info.plist */ = {isa = PBXFileReference; path = "DemyanoSort-Info.plist"; sourceTree = "<group>"; };
+		593EB3E5134C172C00F60E66 /* DemyanoSort-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemyanoSort-Info.plist"; sourceTree = "<group>"; };
 		593EB3E7134C172C00F60E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		593EB3E9134C172C00F60E66 /* DemyanoSort-Prefix.pch */ = {isa = PBXFileReference; path = "DemyanoSort-Prefix.pch"; sourceTree = "<group>"; };
+		593EB3E9134C172C00F60E66 /* DemyanoSort-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemyanoSort-Prefix.pch"; sourceTree = "<group>"; };
 		593EB3EA134C172C00F60E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		593EB3ED134C172C00F60E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		593EB3EF134C172C00F60E66 /* DemyanoSortAppDelegate.h */ = {isa = PBXFileReference; path = DemyanoSortAppDelegate.h; sourceTree = "<group>"; };
+		593EB3EF134C172C00F60E66 /* DemyanoSortAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemyanoSortAppDelegate.h; sourceTree = "<group>"; };
 		593EB3F0134C172C00F60E66 /* DemyanoSortAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemyanoSortAppDelegate.m; sourceTree = "<group>"; };
 		593EB3F3134C172C00F60E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		593EB3FA134C172C00F60E66 /* DemyanoSortTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemyanoSortTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		593EB400134C172C00F60E66 /* DemyanoSortTests-Info.plist */ = {isa = PBXFileReference; path = "DemyanoSortTests-Info.plist"; sourceTree = "<group>"; };
+		593EB400134C172C00F60E66 /* DemyanoSortTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemyanoSortTests-Info.plist"; sourceTree = "<group>"; };
 		593EB402134C172C00F60E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		593EB404134C172C00F60E66 /* DemyanoSortTests-Prefix.pch */ = {isa = PBXFileReference; path = "DemyanoSortTests-Prefix.pch"; sourceTree = "<group>"; };
-		593EB405134C172C00F60E66 /* DemyanoSortTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemyanoSortTests.h; sourceTree = "<group>"; };
-		593EB407134C172C00F60E66 /* DemyanoSortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemyanoSortTests.m; sourceTree = "<group>"; };
+		593EB404134C172C00F60E66 /* DemyanoSortTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemyanoSortTests-Prefix.pch"; sourceTree = "<group>"; };
+		593EB405134C172C00F60E66 /* SorterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SorterTests.h; sourceTree = "<group>"; };
+		593EB407134C172C00F60E66 /* SorterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SorterTests.m; sourceTree = "<group>"; };
+		593EB411134C189000F60E66 /* Sorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sorter.h; sourceTree = "<group>"; };
+		593EB412134C189000F60E66 /* Sorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sorter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,10 @@
 				593EB3F0134C172C00F60E66 /* DemyanoSortAppDelegate.m */,
 				593EB3F2134C172C00F60E66 /* MainMenu.xib */,
 				593EB3E4134C172C00F60E66 /* Supporting Files */,
+				593EB411134C189000F60E66 /* Sorter.h */,
+				593EB412134C189000F60E66 /* Sorter.m */,
+				5901B992134F65F000B32C8F /* NSMutableArray_Shuffling.h */,
+				5901B993134F65F000B32C8F /* NSMutableArray_Shuffling.m */,
 			);
 			path = DemyanoSort;
 			sourceTree = "<group>";
@@ -135,8 +145,8 @@
 		593EB3FE134C172C00F60E66 /* DemyanoSortTests */ = {
 			isa = PBXGroup;
 			children = (
-				593EB405134C172C00F60E66 /* DemyanoSortTests.h */,
-				593EB407134C172C00F60E66 /* DemyanoSortTests.m */,
+				593EB405134C172C00F60E66 /* SorterTests.h */,
+				593EB407134C172C00F60E66 /* SorterTests.m */,
 				593EB3FF134C172C00F60E66 /* Supporting Files */,
 			);
 			path = DemyanoSortTests;
@@ -230,7 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				593EB403134C172C00F60E66 /* InfoPlist.strings in Resources */,
-				593EB406134C172C00F60E66 /* DemyanoSortTests.h in Resources */,
+				593EB406134C172C00F60E66 /* SorterTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +269,8 @@
 			files = (
 				593EB3EB134C172C00F60E66 /* main.m in Sources */,
 				593EB3F1134C172C00F60E66 /* DemyanoSortAppDelegate.m in Sources */,
+				593EB413134C189000F60E66 /* Sorter.m in Sources */,
+				5901B994134F65F000B32C8F /* NSMutableArray_Shuffling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				593EB408134C172C00F60E66 /* DemyanoSortTests.m in Sources */,
+				593EB408134C172C00F60E66 /* SorterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +453,7 @@
 				593EB40D134C172C00F60E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		593EB40E134C172C00F60E66 /* Build configuration list for PBXNativeTarget "DemyanoSortTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +462,7 @@
 				593EB410134C172C00F60E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
